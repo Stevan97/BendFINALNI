@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">BendFINALNI</string>
+    <string name="dodaj_bend">Dodaj Bend</string>
+    <string name="open_drawer">Drawer Opened</string>
+    <string name="close_drawer">Drawer Closed</string>
+    <string name="dialog_about_title">O Aplikaciji</string>
+    <string name="dialog_message">U ovoj Aplikaciji mozete videti detalje o pojedinacnim Bendovima.</string>
+    <string name="dialog_about_yes">OK</string>
+    <string name="dialog_about_no">Cancel</string>
+    <string name="aplikacija_o_glumcima_u_ovoj_aplikaciji_mozete_videti_listu_glumaca_njihove_podatke_i_filmove_u_kojima_je_glumio_milose_samo_jedan_podsetnik_naravno_ako_je_aplikacija_dobra_za_plus_sto_ste_rekli_da_mozete_dati">Aplikaciji o Bendu i Pevacima, mozete videti detalje benda i pevaca koji peva u tom bendu.</string>
+    <string name="nije_dovoljno_dobro_p">ZATVORI DIJALOG</string>
+    <string name="ovaj_dialog_ce_se_prikazati_samo_prvi_i_jedini_put_kada_je_aplikacija_instalirana_i_pokrenuta_osim_u_slucaju_reinstalacije">Ovaj Dijalog ce se prikazati samo PRVI i JEDINI put kada je aplikacija instalirana i pokrenuta. Osim, u slucaju reinstalacije.</string>
+    <string name="naziv_benda">Naziv Benda</string>
+    <string name="opis_benda">Opis Benda</string>
+    <string name="vrsta_muzike_benda">Vrsta Muzike Benda</string>
+    <string name="godina_nastanka_benda_format_yyyy">Godina nastanka Benda - format: yyyy</string>
+    <string name="potvrdi">Potvrdi</string>
+    <string name="odustani">Odustani</string>
+    <string name="mesto_benda">Mesto Benda</string>
+    <string name="lista_pevaca_u_bendu">Lista Pevaca u Bendu:</string>
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
+    <string name="dodaj_pevaca">Dodaj Pevaca</string>
+    <string name="naziv_pevaca">Naziv Pevaca</string>
+    <string name="datum_rodjenja_pevaca">Datum Rodjenja Pevaca</string>
+    <string name="ocenite_pevaca_od_0_do_10">Ocenite Pevaca od 0 do 10 !</string>
+</resources>

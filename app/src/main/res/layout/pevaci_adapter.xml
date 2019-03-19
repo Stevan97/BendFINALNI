@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/pevaci_adapter_naziv"
+        android:layout_width="match_parent"
+        android:textSize="15sp"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/pevaci_adapter_datumRodj"
+        android:layout_width="match_parent"
+        android:textSize="15sp"
+        android:layout_height="wrap_content" />
+
+    <RatingBar
+        android:id="@+id/pevaci_adapter_ratingBar"
+        android:numStars="10"
+        style="@style/Base.Widget.AppCompat.RatingBar.Indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

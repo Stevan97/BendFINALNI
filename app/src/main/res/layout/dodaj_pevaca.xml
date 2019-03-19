@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/colorDark"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/dodaj_pevaca_naziv"
+        android:textColorHint="@color/colorRED"
+        android:textColor="@color/colorRED"
+        android:layout_width="match_parent"
+        android:hint="@string/naziv_pevaca"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/dodaj_pevaca_datumRodj"
+        android:inputType="date"
+        android:textColorHint="@color/colorRED"
+        android:textColor="@color/colorRED"
+        android:hint="@string/datum_rodjenja_pevaca"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/dodaj_pevaca_ocena"
+        android:textColorHint="@color/colorRED"
+        android:textColor="@color/colorRED"
+        android:inputType="number|numberDecimal"
+        android:hint="@string/ocenite_pevaca_od_0_do_10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/dodaj_pevaca_button_confirm"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:text="@string/potvrdi"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/dodaj_pevaca_button_cancel"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:text="@string/odustani"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

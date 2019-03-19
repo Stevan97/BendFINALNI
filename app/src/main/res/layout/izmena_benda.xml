@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/colorDark"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/izmeni_bend_naziv"
+        android:hint="@string/naziv_benda"
+        android:textColorHint="@color/colorRED"
+        android:textColor="@color/colorRED"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <EditText
+        android:id="@+id/izmeni_bend_vrsta_muzike"
+        android:hint="@string/vrsta_muzike_benda"
+        android:textColorHint="@color/colorRED"
+        android:textColor="@color/colorRED"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/izmeni_bend_mesto"
+        android:hint="@string/mesto_benda"
+        android:textColorHint="@color/colorRED"
+        android:textColor="@color/colorRED"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/izmeni_bend_godina_nastanka"
+        android:hint="@string/godina_nastanka_benda_format_yyyy"
+        android:textColorHint="@color/colorRED"
+        android:textColor="@color/colorRED"
+        android:inputType="date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/izmeni_bend_button_confirm"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:text="@string/potvrdi"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/izmeni_bend_button_cancel"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:text="@string/odustani"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
